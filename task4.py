@@ -3,12 +3,12 @@ import math
 
 list1 = []
 x = sum(data)/(len(data)-3)
-print(x)
+# print(x)
 
 for i in data:
 	y = ((i-x)**2)
 	list1.append(y)
-print(list1)
+# print(list1)
 
 z = math.sqrt((sum(list1))/(len(list1)))
 print(z)
